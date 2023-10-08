@@ -46,6 +46,9 @@ nav{
     height: 5%;
     background-color: black;
 }
+nav p{
+    font-size: 100px;
+}
 nav{
     display: flex;
     justify-content: center;
