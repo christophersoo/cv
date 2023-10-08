@@ -23,8 +23,8 @@ header {
     position: relative;
     border: 2px solid grey;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     top: 15%;
     left: 10%;
 }
@@ -32,8 +32,8 @@ header {
     display: inline-block;
     position: relative;
     background-color: #282828;
-    height: 100px;
-    width: 500px;
+    height: 150px;
+    width: 550px;
     top: 15%;
     left: 12%;
     border: 2px solid grey;
