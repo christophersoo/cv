@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Soo - Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="left-container">
+        <div class="profile-picture"></div>
+    </div>
+    <div class="right-container">
+        <h1>Christopher Soo</h1>
+        <p>Data Scientist / Quantitative Researcher</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="javascript:void(0);" onclick="scrollToSection('#personal')">Personal Projects</a></li>
+        <li><a href="javascript:void(0);" onclick="scrollToSection('#univ')">University Projects</a></li>
+        <li><a href="javascript:void(0);" onclick="scrollToSection('#extra')">Extra Projects</a></li>
+        <li><a href="javascript:void(0);" onclick="scrollToSection('#contact')">Contact Me</a></li>
+    </ul>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.querySelector(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</nav>
+
+<section id="personal">
+    <h2>Personal Projects</h2>
+
+    <div class="project-container">
+        <div class="image-container" id="im1">
+        </div>
+        <div class="content-container">
+            <h3>Indonesia's Energy Consumption Forecasting</h3>
+            <p>Status: ongoing<br>
+                This project uses Indonesia's historical energy consumption data along with relevant features such as Weather, GDP, and so on
+                to construct an appropriate machine learning model to forecast the future of energy consumption in Indonesia.
+            </p>
+        </div>
+    </div>
+
+    <div class="project-container">
+        <div class="image-container" id="im2">
+        </div>
+        <div class="content-container">
+            <h3>Sentiment Analysis on Bristol University Through Social Media</h3>
+            <p>Status: ongoing<br>
+                By using popular social media API's and a bit of web scraping techniques, this project is able to conduct a sentiment analysis
+                on posts, comments and articles on Bristol University. Allowing the project to summarize the University's public image and reputation.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="univ">
+    <h2>Machine Learning Projects</h2>
+
+    <a href="https://github.com/christophersoo/handwritten-recognition-c" target="_blank">
+    <div class="project-container">
+        <div class="image-container" id="u1"></div>
+        <div class="content-container">
+            <h3>Handwritten Digit Recognition with C</h3>
+            <p>Status: Completed<br>
+                This project uses the C programming language to construct a handwritten digit recognition model through
+            K-Nearest Neighbors algorithm</p>
+        </div>
+    </div>
+    </a>
+
+</section>
+
+<section id="extra">
+    <h2>Extra Projects</h2>
+
+    <a href="https://github.com/christophersoo/integration-methods" target="_blank">
+    <div class="project-container">
+        <div class="image-container" id="e1"></div>
+        <div class="content-container">
+            <h3>Riemann vs Monte-Carlo Integration</h3>
+            <p>Status: Completed<br>
+                This project evaluates the two methods of integrating; the definitive process against the stochastic process along with the evaluation
+                of both error rates, finally summarizing the benefits and drawbacks.</p>
+        </div>
+    </div>
+    </a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+        <div class="contact-details">
+            <ul>
+                <li><a href="https://www.instagram.com/chito_soo/" target="_blank"><img src="images/insta.png" alt="Instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/christopher-tangsoo/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://medium.com/@chitosux" target="_blank"><img src="images/medium.png" alt="Medium"></a></li>
+                <li><a href="https://wa.me/447904075508" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
