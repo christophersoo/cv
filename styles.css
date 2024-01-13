@@ -39,7 +39,6 @@ nav {
 }
 
 nav ul li:hover {
-    transform: scale(1.02);
     background-color: #2b4d81;
 }
 
@@ -165,10 +164,6 @@ ul li img {
     width: 40px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px; /* Adjust the spacing between logos */
-}
-
-.contact-form {
-    flex: 1;
 }
 
 @media (max-width: 600px) {
