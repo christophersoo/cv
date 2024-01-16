@@ -50,14 +50,14 @@ nav ul li{
 }
 
 .contact-details ul li:hover{
-    background-color: #2b4d81;
+    transform: scale(1.02);
 }
 
 .contact-details ul li{
     background-color: #1d3557;
     padding: 0.5%;
     border-radius: 20px;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 ul {
